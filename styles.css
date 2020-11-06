@@ -1,0 +1,9 @@
+.custom-container {
+  background-color: maroon;
+  margin-left: 10%;
+  max-width: 50%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}

@@ -7,3 +7,7 @@
 .navbar-collapse {
   justify-content: flex-end;
 }
+
+nav {
+  background-color: mediumturquoise;
+}

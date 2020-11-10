@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Syd's Bootstrap Portfolio</title>
+    <title>Bootstrap Basic Portfolio</title>
 
+    <!-- Boostrap Stylesheet -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
 
-    <link rel="stylesheet" href="styles.css" media="screen" />
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen" />
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <a class="navbar-brand" href="index.html" id="logo">Sydney Buchanan</a>
         <button
           class="navbar-toggler"
@@ -30,7 +33,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
@@ -44,17 +47,21 @@
             </li>
           </ul>
         </div>
+        <!-- /.navbar-collapse -->
       </div>
+      <!-- /.container -->
     </nav>
+    <!-- End of navbar -->
 
+    <!-- Start of container -->
     <main class="container">
       <section class="row">
         <div class="col-md-8">
           <article class="block">
-            <h1 class="block-header">About Me</h1>
+            <h1 class="block-header">Sydney Buchanan</h1>
             <hr />
             <img
-              src="images/IMG_4134.jpg"
+              src="assets/imgs/IMG_4134.jpg]"
               alt="Sydney Buchanan"
               id="about-image"
             />
@@ -65,9 +72,8 @@
               knack for problem solving. Being a software engineer I'd be able
               to express my creativity and learn at the same time; two of my
               favorite things.
-              <br />
             </p>
-
+            <br />
             <p>
               I hope that with a new career path, I'm able to shine through my
               work. I'm looking forward to learning all that I can in the months
@@ -79,17 +85,22 @@
         </div>
       </section>
     </main>
+    <!-- End of container -->
 
+    <!-- Start of footer -->
     <footer class="footer">
       <div class="two-toned-footer-color"></div>
       <p class="text-muted text-muted-footer text-center">&copy; Copyright</p>
     </footer>
+    <!-- End of footer -->
 
+    <!-- jQuery CDN -->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
     ></script>
 
+    <!-- Bootstrap CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
